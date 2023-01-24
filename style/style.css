@@ -9,8 +9,8 @@ header{
     position: relative;
     width: 100%;
     height: 60px;
-    box-shadow: 0px 10px rgba(0, 0, 0, 0.2);
-    background: linear-gradient(rgb(114, 62, 255), rgb(0, 0, 0));
+    box-shadow: 0px 10px rgba(194, 87, 87, 0.363);
+    background: linear-gradient(rgb(188, 38, 38), rgb(0, 0, 0));
     display: flex;
     align-items: center ;
 }
@@ -49,7 +49,7 @@ li > a {
     text-align: center;
     line-height: 60px;
     text-decoration: none;
-    color: rgb(42, 220, 255);
+    color: rgb(39, 173, 171);
 
 }
 
@@ -58,7 +58,7 @@ body{
         width: 100vw;
         font-size: 15px;
         font-family: "Audiowide", sans-serif;
-        background: black;
+        background: rgba(90, 83, 83, 0.231);
         overflow-x: hidden;
         min-height: 100vh;
         
@@ -68,7 +68,7 @@ h2{
         font-size: 250%;
         margin-bottom: 20px;
         border-bottom : 1px solid rgb(255, 255, 255);
-        color: blueviolet
+        color: rgb(0, 51, 255)
     }
     
 article{
@@ -79,7 +79,7 @@ article{
 }
 
 p{
-    color: rgb(255, 255, 255);
+    color: rgb(28, 4, 40);
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
@@ -182,6 +182,8 @@ figure {
     padding: 50px;
 }
 
+
+
 @keyframes fotoslider{
     0%{
         opacity: 0;
@@ -260,7 +262,7 @@ footer{
     width: 100%;
     height: 360px;
     color: lightpink;
-    background: linear-gradient(black 70%,rgb(114, 62, 255) );
+    background: linear-gradient(black 70%,rgb(188, 38, 38) );
     display: flex;
     align-items: center ;
     justify-content: space-between;
