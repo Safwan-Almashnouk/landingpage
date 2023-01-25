@@ -5,11 +5,12 @@
     list-style: none;
 }
 
+
 header{
     position: relative;
     width: 100%;
     height: 60px;
-    box-shadow: 0px 10px rgba(194, 87, 87, 0.363);
+    
     background: linear-gradient(rgb(188, 38, 38), rgb(0, 0, 0));
     display: flex;
     align-items: center ;
@@ -49,7 +50,7 @@ li > a {
     text-align: center;
     line-height: 60px;
     text-decoration: none;
-    color: rgb(39, 173, 171);
+    color: rgb(0, 0, 0);
 
 }
 
@@ -58,7 +59,7 @@ body{
         width: 100vw;
         font-size: 15px;
         font-family: "Audiowide", sans-serif;
-        background: rgba(90, 83, 83, 0.231);
+        background: rgba(0, 0, 0, 0.231);
         overflow-x: hidden;
         min-height: 100vh;
         
@@ -135,9 +136,14 @@ img{
     padding-right: 20px;
 }
 
-#time{
+.time{
     width: 100%;
     border-radius:10px ;
+    color: black'
+}
+
+.times > .time {
+    color: black;
 }
 
 figure {
@@ -177,7 +183,7 @@ figure {
     object-fit: cover;
     background-repeat: no-repeat;
     animation-name: fotoslider;
-    animation-duration: 30s;
+    animation-duration: 60s;
     animation-iteration-count: infinite;
     padding: 50px;
 }
@@ -287,7 +293,7 @@ footer > div > a > img {
 
 .Extra{
     height: 32px;
-    color: rgb(42, 220, 255);
+    color: rgb(105, 0, 0);
 }
 
 
