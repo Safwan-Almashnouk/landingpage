@@ -5,6 +5,7 @@
     list-style: none;
 }
 
+
 header{
     position: relative;
     width: 100%;
@@ -58,7 +59,11 @@ body{
         width: 100vw;
         font-size: 15px;
         font-family: "Audiowide", sans-serif;
+<<<<<<< HEAD
         background: rgb(0, 0, 0);
+=======
+        background: rgba(0, 0, 0, 0.231);
+>>>>>>> 38aa4bcb955ce8b1bdb64c259f43495bec287a7f
         overflow-x: hidden;
         min-height: 100vh;
         
@@ -135,9 +140,14 @@ img{
     padding-right: 20px;
 }
 
-#time{
+.time{
     width: 100%;
     border-radius:10px ;
+    color: black'
+}
+
+.times > .time {
+    color: black;
 }
 
 figure {
@@ -177,7 +187,7 @@ figure {
     object-fit: cover;
     background-repeat: no-repeat;
     animation-name: fotoslider;
-    animation-duration: 30s;
+    animation-duration: 60s;
     animation-iteration-count: infinite;
     padding: 50px;
 }
@@ -287,9 +297,133 @@ footer > div > a > img {
 
 .Extra{
     height: 32px;
+<<<<<<< HEAD
     color: rgb(255, 42, 42);
+=======
+    color: rgb(105, 0, 0);
+}
+
+
+@media screen and (max-width : 1000px) {
+
+    @media screen and (max-width : 1000px) {
+    article{
+        width: 80vw;
+        
+    }
+    
+    header>p{
+        width: 80vw;
+    }
+    footer > p {
+        width: 80vw;
+    }
+    img:hover{
+        transform: none;
+    }
+    .button{
+        width: 60px;
+        height: 60px;
+        bottom: 60px;
+        right: 60px;
+    
+    }
+    ul{
+        display: block;
+        list-style: none;
+        height: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 20px;
+        
+    }
+    header{
+        height: auto;
+    }
+    nav{
+        width: 100%;
+    }
+
+@media screen and (max-width : 600px) {
+    header{
+        width: 100vw;
+    }
+    footer{
+        width: 100vw;
+    }
+    .scroll{
+        margin: 0 auto;
+    }
+    article{
+        width: 80vw;
+        
+    }
+    header>p{
+        width: 80vw;
+    }
+    footer > p {
+        width: 80vw;
+    }
+    img:hover{
+        transform: none;
+    }
+    
+}
+    article{
+        width: 80vw;
+        
+    }
+    header>p{
+        width: 80vw;
+    }
+    footer > p {
+        width: 80vw;
+    }
+    img:hover{
+        transform: none;
+    }
+    .button{
+        width: 60px;
+        height: 60px;
+        bottom: 60px;
+        right: 60px;
+    
+    }
+    ul{
+        display: block;
+        list-style: none;
+        height: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 20px;
+        
+    }
+    header{
+        height: auto;
+    }
+    nav{
+        width: 100%;
+    }
+
+@media screen and (max-width : 600px) {
+    article{
+        width: 80vw;
+        
+    }
+    header>p{
+        width: 80vw;
+    }
+    footer > p {
+        width: 80vw;
+    }
+    img:hover{
+        transform: none;
+    }
+    
+>>>>>>> 38aa4bcb955ce8b1bdb64c259f43495bec287a7f
 }
 
 
 
-
+    }
+    }
