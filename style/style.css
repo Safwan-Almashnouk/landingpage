@@ -9,7 +9,7 @@ header{
     position: relative;
     width: 100%;
     height: 60px;
-    box-shadow: 0px 10px rgba(194, 87, 87, 0.363);
+    
     background: linear-gradient(rgb(188, 38, 38), rgb(0, 0, 0));
     display: flex;
     align-items: center ;
@@ -49,7 +49,7 @@ li > a {
     text-align: center;
     line-height: 60px;
     text-decoration: none;
-    color: rgb(39, 173, 171);
+    color: rgb(0, 0, 0);
 
 }
 
@@ -58,7 +58,7 @@ body{
         width: 100vw;
         font-size: 15px;
         font-family: "Audiowide", sans-serif;
-        background: rgba(90, 83, 83, 0.231);
+        background: rgb(0, 0, 0);
         overflow-x: hidden;
         min-height: 100vh;
         
@@ -67,8 +67,8 @@ body{
 h2{
         font-size: 250%;
         margin-bottom: 20px;
-        border-bottom : 1px solid rgb(255, 255, 255);
-        color: rgb(0, 51, 255)
+        border-bottom : 1px solid #ffffff;
+        color: rgb(109, 0, 0)
     }
     
 article{
@@ -79,7 +79,7 @@ article{
 }
 
 p{
-    color: rgb(28, 4, 40);
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
@@ -261,7 +261,7 @@ footer{
     position: relative;
     width: 100%;
     height: 360px;
-    color: lightpink;
+    color: rgb(0, 0, 0);
     background: linear-gradient(black 70%,rgb(188, 38, 38) );
     display: flex;
     align-items: center ;
@@ -287,7 +287,7 @@ footer > div > a > img {
 
 .Extra{
     height: 32px;
-    color: rgb(42, 220, 255);
+    color: rgb(255, 42, 42);
 }
 
 
