@@ -297,5 +297,125 @@ footer > div > a > img {
 }
 
 
+@media screen and (max-width : 1000px) {
+
+    @media screen and (max-width : 1000px) {
+    article{
+        width: 80vw;
+        
+    }
+    
+    header>p{
+        width: 80vw;
+    }
+    footer > p {
+        width: 80vw;
+    }
+    img:hover{
+        transform: none;
+    }
+    .button{
+        width: 60px;
+        height: 60px;
+        bottom: 60px;
+        right: 60px;
+    
+    }
+    ul{
+        display: block;
+        list-style: none;
+        height: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 20px;
+        
+    }
+    header{
+        height: auto;
+    }
+    nav{
+        width: 100%;
+    }
+
+@media screen and (max-width : 600px) {
+    header{
+        width: 100vw;
+    }
+    footer{
+        width: 100vw;
+    }
+    .scroll{
+        margin: 0 auto;
+    }
+    article{
+        width: 80vw;
+        
+    }
+    header>p{
+        width: 80vw;
+    }
+    footer > p {
+        width: 80vw;
+    }
+    img:hover{
+        transform: none;
+    }
+    
+}
+    article{
+        width: 80vw;
+        
+    }
+    header>p{
+        width: 80vw;
+    }
+    footer > p {
+        width: 80vw;
+    }
+    img:hover{
+        transform: none;
+    }
+    .button{
+        width: 60px;
+        height: 60px;
+        bottom: 60px;
+        right: 60px;
+    
+    }
+    ul{
+        display: block;
+        list-style: none;
+        height: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 20px;
+        
+    }
+    header{
+        height: auto;
+    }
+    nav{
+        width: 100%;
+    }
+
+@media screen and (max-width : 600px) {
+    article{
+        width: 80vw;
+        
+    }
+    header>p{
+        width: 80vw;
+    }
+    footer > p {
+        width: 80vw;
+    }
+    img:hover{
+        transform: none;
+    }
+    
+}
 
 
+
+    }
+    }
