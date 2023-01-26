@@ -79,7 +79,15 @@ body{
         width: 100vw;
         font-size: 15px;
         font-family: "Audiowide", sans-serif;
+<<<<<<< HEAD
         background: rgba(255, 255, 255, 0.231);
+=======
+<<<<<<< HEAD
+        background: rgb(0, 0, 0);
+=======
+        background: rgba(0, 0, 0, 0.231);
+>>>>>>> 38aa4bcb955ce8b1bdb64c259f43495bec287a7f
+>>>>>>> dcfd4028778db077a7a360740a21198ffc8df295
         overflow-x: hidden;
         min-height: 100vh;
         
@@ -88,8 +96,13 @@ body{
 h2{
         font-size: 250%;
         margin-bottom: 20px;
+<<<<<<< HEAD
         border-bottom : 1px solid rgb(255, 255, 255);
         color: rgb(111, 0, 0)
+=======
+        border-bottom : 1px solid #ffffff;
+        color: rgb(109, 0, 0)
+>>>>>>> dcfd4028778db077a7a360740a21198ffc8df295
     }
     
 article{
@@ -288,7 +301,7 @@ footer{
     position: relative;
     width: 100%;
     height: 360px;
-    color: lightpink;
+    color: rgb(0, 0, 0);
     background: linear-gradient(black 70%,rgb(188, 38, 38) );
     display: flex;
     align-items: center ;
@@ -314,6 +327,9 @@ footer > div > a > img {
 
 .Extra{
     height: 32px;
+<<<<<<< HEAD
+    color: rgb(255, 42, 42);
+=======
     color: rgb(105, 0, 0);
 }
 
@@ -434,6 +450,7 @@ footer > div > a > img {
         transform: none;
     }
     
+>>>>>>> 38aa4bcb955ce8b1bdb64c259f43495bec287a7f
 }
 
 
