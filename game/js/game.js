@@ -1,35 +1,62 @@
-import { GameRenderer } from "./gamerender.js"
-import { GameLogic } from "./gamelogic.js"
-import { Rect } from "./rect.js"
+let canvas = document.getElementById('canvas');
+  let ctx = canvas.getContext('2d');
 
-class Game
-{
-    constructor(){
-        this.renderer = new GameRenderer(this)
-        this.logic = new GameLogic(this)
-        this.player = new Rect(0,0,54,54)
-        this.playerCurrentAnimation = this.renderer.playerIdle
-        this.luk = new Rect (100, 100, 44,44)
-    }
-    init(){
-        
-        this.renderer.loadImages()
-    }
 
-    startGame(){
-        let scope = this;
-        this.renderer.canvas.addEventListener("mousemove", function(event){scope.logic.mouseMoved(event)})
-        setInterval(function(){ scope.doGameFrame()}, 33)
+var score = 0;
+var scoreDisplayer = document.getElementById("score");
+  var moles = [
+    {x: 0, y: 0, w: 100, h: 100, visible: false},
+    {x: 0, y: 200, w: 100, h: 100, visible: false},
+    {x: 0, y: 400, w: 100, h: 100, visible: false},
+    {x: 200, y: 0, w: 100, h: 100, visible: false},
+    {x: 200, y: 200, w: 100, h: 100, visible: false},
+    {x: 200, y: 400, w: 100, h: 100, visible: false},
+    {x: 400, y: 0, w: 100, h: 100, visible: false},
+    {x: 400, y: 200, w: 100, h: 100, visible: false},
+    {x: 400, y: 400, w: 100, h: 100, visible: false}
+  ]
 
-    }
+ 
+  let moleImage = new Image();
+  moleImage.src = "luk.png";
 
-    doGameFrame()
-    {
-        this.logic.logic()
-        this.renderer.render()
+function drawMoles() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  for (var i = 0; i < moles.length; i++) {
+    var mole = moles[i];
+    if (mole.visible) {
+      ctx.drawImage(moleImage, mole.x, mole.y, mole.w, mole.h);
     }
-   
+  }
 }
 
-let game = new Game()
-game.init()
+  function handleClick(event) {
+
+    console.log("click");
+
+    var x = event.clientX - canvas.offsetLeft;
+    var y = event.clientY - canvas.offsetTop;
+
+    for (var i = 0; i < moles.length; i++) {
+      var mole = moles[i];
+      if (x > mole.x && x < mole.x + mole.w && y > mole.y && y < mole.y + mole.h && mole.visible) {
+        mole.visible = false;
+        score += 1;
+        scoreDisplayer.innerHTML = "Score: " + score;
+        drawMoles();
+        break;
+      }
+    }
+  }
+  canvas.addEventListener('click', handleClick);
+
+  function showMole() {
+    var mole = moles[Math.floor(Math.random() * moles.length)];
+    mole.visible = true;
+    setTimeout(function() {
+      mole.visible = false;
+      drawMoles();
+    }, Math.random() * 2000 + 1000);
+  }
+  setInterval(showMole, 1000);
+

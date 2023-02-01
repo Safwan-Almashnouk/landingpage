@@ -59,13 +59,6 @@ body{
         width: 100vw;
         font-size: 15px;
         font-family: "Audiowide", sans-serif;
-<<<<<<< HEAD
-        background: rgb(0, 0, 0);
-=======
-        background: rgba(0, 0, 0, 0.231);
->>>>>>> 38aa4bcb955ce8b1bdb64c259f43495bec287a7f
-        overflow-x: hidden;
-        min-height: 100vh;
         
         
     }
@@ -84,7 +77,7 @@ article{
 }
 
 p{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
@@ -165,11 +158,12 @@ figure {
 }
 
 
+
 ::-webkit-scrollbar {
     width: 10px;
   }
   ::-webkit-scrollbar-track {
-    background: #424242;
+    background: #000000;
   }
   ::-webkit-scrollbar-thumb {
     
@@ -295,13 +289,9 @@ footer > div > a > img {
 
 
 
-.Extra{
-    height: 32px;
-<<<<<<< HEAD
-    color: rgb(255, 42, 42);
-=======
-    color: rgb(105, 0, 0);
-}
+
+ 
+
 
 
 @media screen and (max-width : 1000px) {
@@ -420,7 +410,7 @@ footer > div > a > img {
         transform: none;
     }
     
->>>>>>> 38aa4bcb955ce8b1bdb64c259f43495bec287a7f
+
 }
 
 
