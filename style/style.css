@@ -5,6 +5,13 @@
     list-style: none;
 }
 
+main > p{
+    background-color: white;
+}
+
+main{
+    background-color: black;
+}
 
 header{
     position: relative;
@@ -14,6 +21,19 @@ header{
     background: linear-gradient(rgb(188, 38, 38), rgb(0, 0, 0));
     display: flex;
     align-items: center ;
+}
+
+.Trans{
+    color: black;
+    background: transparent;
+    border-style: none;
+    padding-right: 20px;
+    
+}
+
+.Trans > a{
+    text-decoration: none;
+    color: red;
 }
 
 header > img{
@@ -59,20 +79,40 @@ body{
         width: 100vw;
         font-size: 15px;
         font-family: "Audiowide", sans-serif;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        background: rgba(255, 255, 255, 0.231);
+=======
+<<<<<<< HEAD
+        background: rgb(0, 0, 0);
+=======
+        background: rgba(0, 0, 0, 0.231);
+>>>>>>> 38aa4bcb955ce8b1bdb64c259f43495bec287a7f
+>>>>>>> dcfd4028778db077a7a360740a21198ffc8df295
+        overflow-x: hidden;
+        min-height: 100vh;
+>>>>>>> 471a0d7b85f8af53c9a9dc153db03a376737307d
         
         
     }
 h2{
         font-size: 250%;
         margin-bottom: 20px;
+<<<<<<< HEAD
+        border-bottom : 1px solid rgb(255, 255, 255);
+        color: rgb(111, 0, 0)
+=======
         border-bottom : 1px solid #ffffff;
         color: rgb(109, 0, 0)
+>>>>>>> dcfd4028778db077a7a360740a21198ffc8df295
     }
     
 article{
         width: 60vw;
         margin: 0 auto;
         padding: 10px;
+        color: rgb(109, 0, 0);
         
 }
 
